@@ -1,0 +1,19 @@
+tf_publisher_gui:
+  apt:
+    packages:
+      humble:
+        - python3-pyqt5
+        - python3-rclpy
+        - ros-humble-geometry-msgs
+        - ros-humble-tf2-ros
+        - python3-numpy
+        - python3-scipy
+        - python3-yaml
+      jazzy:
+        - python3-pyqt5
+        - python3-rclpy
+        - ros-jazzy-geometry-msgs
+        - ros-jazzy-tf2-ros
+        - python3-numpy
+        - python3-scipy
+        - python3-yaml
