@@ -12,7 +12,7 @@ Current version is tested on humble and jazzy.
 
 Check out this video demonstration of the LiDAR Calibration process using the TF Publisher GUI:
 
-[![LiDAR Calibration Demo](https://img.youtube.com/vi/qO0II-0Jsa4/0.jpg)](https://youtu.be/qO0II-0Jsa4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qO0II-0Jsa4?si=WSyel6rwN5PlDqcT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Installation
 To install this package into your ROS2 workspace, follow these steps:
