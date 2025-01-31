@@ -2,7 +2,11 @@
 
 This is a simple tool for publishing a tf transformation that can be adjusted in real time. Initially built for calibrating LiDAR sensor positions.
 
+![Layout sample](doc/img/tf_publisher_gui_sample_img_1.png)
+
 Current version is tested on humble and jazzy.
+
+![Usage example](doc/img/tf_publisher_gui_sample_img_2.png)
 
 ## Installation
 To install this package into your ROS2 workspace, follow these steps:
