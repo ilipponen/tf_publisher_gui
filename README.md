@@ -8,6 +8,12 @@ Current version is tested on humble and jazzy.
 
 ![Usage example](doc/img/tf_publisher_gui_sample_img_2.png)
 
+## LiDAR Calibration Demo
+
+Check out this video demonstration of the LiDAR Calibration process using the TF Publisher GUI:
+
+[![LiDAR Calibration Demo](https://img.youtube.com/vi/qO0II-0Jsa4/0.jpg)](https://youtu.be/qO0II-0Jsa4)
+
 ## Installation
 To install this package into your ROS2 workspace, follow these steps:
 
