@@ -81,3 +81,24 @@ ros2 run tf_publisher_gui tf_publisher_gui \
 - `pitch`: The pitch angle of the transformation in radians (default: `0.0`).
 - `yaw`: The yaw angle of the transformation in radians (default: `0.0`).
 - `hz`: The frequency at which the transformation is published in Hz (default: `10`).
+
+### Working with ROS2 Bags
+
+When working with ROS2 bags, ensure the bag publishes the clock and the node uses simulation time.
+
+In the [demo](#demo) video, the calibration of two LiDARs is performed using a looping bag file with the necessary message data.
+
+To launch the stack, start the bag file with:
+```sh
+ros2 bag play <bag_folder> --clock
+```
+
+Run RViz with simulation time enabled:
+```sh
+ros2 run rviz2 rviz2 --ros-args -p use_sim_time:=true
+```
+
+Start the TF Publisher GUI instance:
+```sh
+ros2 run tf_publisher_gui tf_publisher_gui --ros-args -p use_sim_time:=true
+```
